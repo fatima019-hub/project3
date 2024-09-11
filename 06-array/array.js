@@ -1,7 +1,7 @@
 // write your func here
 
-function Equal() {
-  let a = [12, "1", 8, 20, 5];
+function isEqual() {
+  let a = [12, 1, 8, 20, 5];
   let b = [12, 1, 8, 20, 5];
 
   if (a.length !== b.length) return "False";
@@ -10,6 +10,6 @@ function Equal() {
     return "True";
   }
 }
-let v = Equal();
+let v = isEqual();
 
 console.log(v);

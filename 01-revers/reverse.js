@@ -1,10 +1,10 @@
 // write your func here
-function reverseString(str) {
+function reverse(str) {
   var newString = "";
   for (var i = str.length - 1; i >= 0; i--) {
     newString += str[i];
   }
   return newString;
 }
-reverseString("this is string");
-console.log(reverseString("this is string"));
+reverse("this is string");
+console.log(reverse("this is string"));
